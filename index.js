@@ -20,6 +20,8 @@ function bitmap(width, height, byteWidth, bitsPerPixel, bytesPerPixel, image)
 
 }
 
+module.exports.bitmap = bitmap;
+
 module.exports.screen.capture = function(x, y, width, height)
 {
     //If coords have been passed, use them.
